@@ -41,7 +41,7 @@ const findElementByClass = (rootElement, className) => {
         } else {
             if (element.hasChildNodes()) {
                 // не поняла, почему не работает просто 
-                // findElementByClass(element, className)
+                // return findElementByClass(element, className)
                 // мог же просто вернуть элемент из строчки 40 выше..?
                 const foundElement = findElementByClass(element, className);
                 if (foundElement) {
