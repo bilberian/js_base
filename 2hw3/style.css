@@ -1,0 +1,27 @@
+a, .review__form-add {
+    text-decoration: none;
+    cursor: pointer;
+    transition: scale 0.3s;
+    color: rgb(42, 81, 165);
+}
+
+a:hover, .review__form-add:hover {
+    scale: 1.05;
+    color: rgb(8, 15, 100);
+}
+
+.navbar, .review__container {
+    margin-left: 20px;
+}
+.navbar {
+    display: flex;
+    gap: 30px;
+}
+
+.review__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+

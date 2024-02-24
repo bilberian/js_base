@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="2hw3.js" defer></script>
+    
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="index.html">Написать отзыв</a>
+      <a href="reviews.html">Все отзывы</a>
+    </div>
+    <div class="review__container">
+      <h1 class="review__title">Добавьте ваш отзыв</h1>
+      <div class="review__form">
+        <input 
+          required
+          class="review__form_product-name"
+          type="text"
+          placeholder="Наименование товара"
+        />
+        <textarea
+          class="review__form_user-review"
+          placeholder="Напишите свой отзыв"
+          cols="40"
+          rows="10"
+        ></textarea>
+        <button class="review__form-add">Добавить отзыв</button>
+      </div>
+    </div>
+  </body>
+</html>
