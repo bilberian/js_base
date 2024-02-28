@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    transition: scale 0.3s;
+    color: rgb(42, 81, 165);
+}
+
+button:enabled:hover {
+    scale: 1.05;
+    color: rgb(8, 15, 100);
+}
+
+.timetable {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.course {
+    padding: 20px;
+    border: 15px solid rgb(228, 221, 214);
+    border-radius: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
