@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pics__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto auto auto;
+    border: 5px solid rgba(0, 0, 0, 0.142);
+    width: 50vw;
+    min-width: 400px;
+    user-select: none;
+}
+
+.pics__album {
+    margin-top: 20px;
+}
+
+.pic {
+    display: none;
+    pointer-events: none;
+}
+
+.active {
+    display: block;
+}
+
+.pics__nav {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    color: rgba(24, 23, 23, 0.404);
+    
+}
+
+.pics__btn-back, .pics__btn-fwd, .pics__bull {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.pics__btn-back:hover, .pics__btn-fwd:hover, .pics__bull:hover, .shown {
+    color: rgba(24, 23, 23, 0.767);
+    scale: 1.05;
+}
+
+.pics__btn-back, .pics__btn-fwd {
+    font-size: 25px;
+}
+
+.pics__bulls {
+    display: flex;
+    gap: 7px;
+    
+}
+
+.pics__bull {
+    font-size: 40px;
+    
+}
+
+
+
+
+
