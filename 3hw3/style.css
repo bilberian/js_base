@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pic__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 20px auto auto auto;
+    border: 5px solid rgba(0, 0, 0, 0.142);
+    width: 30vw;
+    min-width: 300px;
+    user-select: none;
+}
+
+.pic__downloaded {
+    margin-top: 20px;
+    
+}
+
+.pic__downloaded img {
+    object-fit: contain;
+    max-width: 300px;
+    max-height: 400px;
+    cursor: pointer;
+}
+
+.pic__photographer {
+    color: rgba(24, 23, 23, 0.897);
+    font-size: 20px;
+}
+
+.pic__like-btn {
+    color: rgba(24, 23, 23, 0.244);
+    font-size: 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.pic__like-btn:hover {
+    color: rgba(24, 23, 23, 0.767);
+    scale: 1.05;
+}
+
+.pic__liked-heart {
+   color: rgb(228, 67, 126);
+}
+
+.hidden {
+    display: none;
+}
+
+.pics__likes-total {
+    margin-top: 20px;
+    margin-left: 50px;
+    color: rgba(24, 23, 23, 0.897);
+    font-size: 20px;
+}
+
+.history__container {
+    margin: 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.history__pic {
+    position: relative;
+}
+
+.history__pic img {
+    max-width: 100px;
+}
+
+.pic__liked {
+    outline: 5px solid rgb(228, 67, 126);
+}
+
+
+
+
+
+
